@@ -14,4 +14,9 @@ public class FactorialTest {
         assertEquals(1, f.factorial(1));
     }
 
+    @org.junit.Test
+    public void factorialTwo() {
+        assertEquals(2, f.factorial(2));
+    }
+
 }

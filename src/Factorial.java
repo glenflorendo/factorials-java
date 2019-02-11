@@ -6,7 +6,7 @@ public class Factorial {
             return 1;
         }
 
-        return Long.parseLong(null);
+        return n * factorial(n - 1);
     }
 
 }
