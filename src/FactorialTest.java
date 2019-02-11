@@ -19,4 +19,9 @@ public class FactorialTest {
         assertEquals(2, f.factorial(2));
     }
 
+    @org.junit.Test
+    public void factorialThree() {
+        assertEquals(6, f.factorial(3));
+    }
+
 }
