@@ -24,4 +24,9 @@ public class FactorialTest {
         assertEquals(6, f.factorial(3));
     }
 
+    @org.junit.Test
+    public void factorialTen() {
+        assertEquals(3628800, f.factorial(10));
+    }
+
 }
