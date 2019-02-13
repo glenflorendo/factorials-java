@@ -38,9 +38,7 @@ public class FactorialTest {
     public void factorialSix() { assertEquals(720, f.factorial(6)); }
 
     @org.junit.Test
-    public void factorialSeven() {
-        assertEquals(5040, f.factorial(7));
-    }
+    public void factorialSeven() { assertEquals(5040, f.factorial(7)); }
 
     @org.junit.Test
     public void factorialEight() {
