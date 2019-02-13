@@ -25,6 +25,34 @@ public class FactorialTest {
     }
 
     @org.junit.Test
+    public void factorialFour() {
+        assertEquals(24, f.factorial(4));
+    }
+
+    @org.junit.Test
+    public void factorialFive() {
+        assertEquals(120, f.factorial(5));
+    }
+
+    @org.junit.Test
+    public void factorialSix() { assertEquals(720, f.factorial(6)); }
+
+    @org.junit.Test
+    public void factorialSeven() {
+        assertEquals(5040, f.factorial(7));
+    }
+
+    @org.junit.Test
+    public void factorialEight() {
+        assertEquals(40320, f.factorial(8));
+    }
+
+    @org.junit.Test
+    public void factorialNine() {
+        assertEquals(362880, f.factorial(9));
+    }
+
+    @org.junit.Test
     public void factorialTen() {
         assertEquals(3628800, f.factorial(10));
     }
