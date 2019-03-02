@@ -107,5 +107,41 @@ public class Factorial {
         System.out.println("Test 8: " + duration8);
         System.out.println("Test 9: " + duration9);
         System.out.println("Test 10: " + duration10);
+
+        // Test 20
+        long startTime20 = System.nanoTime();
+        f.factorial(20);
+        long endTime20 = System.nanoTime();
+        long duration20 = (endTime20 - startTime20); // 2000000; // get milliseconds
+
+        // Test 40
+        long startTime40 = System.nanoTime();
+        f.factorial(40);
+        long endTime40 = System.nanoTime();
+        long duration40 = (endTime40 - startTime40); // 4000000; // get milliseconds
+
+        // Test 60
+        long startTime60 = System.nanoTime();
+        f.factorial(60);
+        long endTime60 = System.nanoTime();
+        long duration60 = (endTime60 - startTime60); // 6000000; // get milliseconds
+
+        // Test 80
+        long startTime80 = System.nanoTime();
+        f.factorial(80);
+        long endTime80 = System.nanoTime();
+        long duration80 = (endTime80 - startTime80); // 8000000; // get milliseconds
+
+        // Test 1000
+        long startTime100 = System.nanoTime();
+        f.factorial(100);
+        long endTime100 = System.nanoTime();
+        long duration100 = (endTime100 - startTime100); // 10000000; // get milliseconds
+
+        System.out.println("Test 20: " + duration20);
+        System.out.println("Test 40: " + duration40);
+        System.out.println("Test 60: " + duration60);
+        System.out.println("Test 80: " + duration80);
+        System.out.println("Test 100: " + duration100);
     }
 }
