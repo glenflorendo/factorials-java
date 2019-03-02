@@ -6,53 +6,53 @@ public class FactorialTest {
 
     @org.junit.Test
     public void factorialZero() {
-        assertEquals(1, f.factorial(0));
+        assertEquals(1, f.getFibThread(0));
     }
 
     @org.junit.Test
     public void factorialOne() {
-        assertEquals(1, f.factorial(1));
+        assertEquals(1, f.getFibThread(1));
     }
 
     @org.junit.Test
     public void factorialTwo() {
-        assertEquals(2, f.factorial(2));
+        assertEquals(2, f.getFibThread(2));
     }
 
     @org.junit.Test
     public void factorialThree() {
-        assertEquals(6, f.factorial(3));
+        assertEquals(6, f.getFibThread(3));
     }
 
     @org.junit.Test
     public void factorialFour() {
-        assertEquals(24, f.factorial(4));
+        assertEquals(24, f.getFibThread(4));
     }
 
     @org.junit.Test
     public void factorialFive() {
-        assertEquals(120, f.factorial(5));
+        assertEquals(120, f.getFibThread(5));
     }
 
     @org.junit.Test
-    public void factorialSix() { assertEquals(720, f.factorial(6)); }
+    public void factorialSix() { assertEquals(720, f.getFibThread(6)); }
 
     @org.junit.Test
-    public void factorialSeven() { assertEquals(5040, f.factorial(7)); }
+    public void factorialSeven() { assertEquals(5040, f.getFibThread(7)); }
 
     @org.junit.Test
     public void factorialEight() {
-        assertEquals(40320, f.factorial(8));
+        assertEquals(40320, f.getFibThread(8));
     }
 
     @org.junit.Test
     public void factorialNine() {
-        assertEquals(362880, f.factorial(9));
+        assertEquals(362880, f.getFibThread(9));
     }
 
     @org.junit.Test
     public void factorialTen() {
-        assertEquals(3628800, f.factorial(10));
+        assertEquals(3628800, f.getFibThread(10));
     }
 
 }
